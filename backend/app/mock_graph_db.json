@@ -1,0 +1,1243 @@
+{
+  "PMP-101": {
+    "equipment_id": "PMP-101",
+    "location": "plant2/area1",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician John Supervisor R"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician John Supervisor R"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician John Supervisor R. Sharma Inspection 202607-01 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "John",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-101",
+        "work_order_id": "WO-2026-4401",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-101",
+        "work_order_id": "WO-2026-4501",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "john",
+        "inspection_date": "202607-01",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant2/area1",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-102": {
+    "equipment_id": "PMP-102",
+    "location": "plant3/area2",
+    "manufacturer": "siemens",
+    "entities": [
+      {
+        "equipment_id": "PMP-102",
+        "work_order_id": "WO-2026-4502",
+        "component_name": "impeller blades",
+        "failure_type": "pmp-102_cavitation",
+        "technician": "john doe",
+        "inspection_date": "2026-06-15",
+        "maintenance_action": "action",
+        "regulatory_references": [
+          "factory act sec 21"
+        ],
+        "location": "utility block a",
+        "cause": "cavitation fatigue",
+        "recommendation": "inspect impeller daily",
+        "manufacturer": "siemens",
+        "documents": [
+          "SOP_Pump_Maintenance_v2.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-102",
+        "work_order_id": "WO-2026-4402",
+        "component_name": "shaft casing",
+        "failure_type": "pmp-102_vibration",
+        "technician": "john doe",
+        "inspection_date": "2026-06-20",
+        "maintenance_action": "action",
+        "regulatory_references": [
+          "factory act sec 21"
+        ],
+        "location": "utility block a",
+        "cause": "unbalanced load",
+        "recommendation": "realign shaft and tighten casing",
+        "manufacturer": "siemens",
+        "documents": [
+          "SOP_Pump_Maintenance_v2.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-102",
+        "work_order_id": "WO-2026-4502",
+        "component_name": "bearing assembly",
+        "failure_type": "bearing wear",
+        "technician": "emily scott",
+        "inspection_date": "2026-06-15",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "utility block a",
+        "cause": "lubrication fatigue",
+        "recommendation": "grease bearings weekly",
+        "manufacturer": "siemens",
+        "documents": [
+          "test_audit_report.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-102",
+        "work_order_id": "WO-2026-4502",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "emily",
+        "inspection_date": "202607-02",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant3/area2",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "TURB-401": {
+    "equipment_id": "TURB-401",
+    "location": "power block b",
+    "manufacturer": "ge power",
+    "entities": [
+      {
+        "equipment_id": "TURB-401",
+        "work_order_id": "WO-2026-8801",
+        "component_name": "rotor shaft",
+        "failure_type": "shaft misalignment",
+        "technician": "alex rivera",
+        "inspection_date": "2026-07-01",
+        "maintenance_action": "realign shaft",
+        "regulatory_references": [
+          "OSHA Title 29"
+        ],
+        "location": "power block b",
+        "cause": "thermal expansion",
+        "recommendation": "monitor shaft vibration telemetry",
+        "manufacturer": "ge power",
+        "documents": [
+          "Turbine_Alignment_SOP.pdf"
+        ]
+      }
+    ]
+  },
+  "COMP-301": {
+    "equipment_id": "COMP-301",
+    "location": "compressor room c",
+    "manufacturer": "atlas copco",
+    "entities": [
+      {
+        "equipment_id": "COMP-301",
+        "work_order_id": "WO-2026-9901",
+        "component_name": "piston rings",
+        "failure_type": "compression loss",
+        "technician": "sarah chen",
+        "inspection_date": "2026-07-05",
+        "maintenance_action": "replace piston rings",
+        "regulatory_references": [
+          "ISO 10816"
+        ],
+        "location": "compressor room c",
+        "cause": "mechanical wear",
+        "recommendation": "perform piston ring checks annually",
+        "manufacturer": "atlas copco",
+        "documents": [
+          "Compressor_Overhaul_Manual.pdf"
+        ]
+      }
+    ]
+  },
+  "VALV-204": {
+    "equipment_id": "VALV-204",
+    "location": "manifold block d",
+    "manufacturer": "emerson",
+    "entities": [
+      {
+        "equipment_id": "VALV-204",
+        "work_order_id": "WO-2026-7701",
+        "component_name": "actuator diaphragm",
+        "failure_type": "air leakage",
+        "technician": "marcus vance",
+        "inspection_date": "2026-07-10",
+        "maintenance_action": "replace diaphragm",
+        "regulatory_references": [
+          "API Standard 598"
+        ],
+        "location": "manifold block d",
+        "cause": "material degradation",
+        "recommendation": "use high-temperature elastomer diaphragm",
+        "manufacturer": "emerson",
+        "documents": [
+          "Valve_PM_Procedure.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-103": {
+    "equipment_id": "PMP-103",
+    "location": "plant1/area3",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Raj Supervisor M"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Raj Supervisor M"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Raj Supervisor M. Scott Inspection 202607-03 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Raj",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-103",
+        "work_order_id": "WO-2026-4403",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-103",
+        "work_order_id": "WO-2026-4503",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "raj",
+        "inspection_date": "202607-03",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant1/area3",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-104": {
+    "equipment_id": "PMP-104",
+    "location": "plant2/area4",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Aisha Supervisor R"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Aisha Supervisor R"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Aisha Supervisor R. Sharma Inspection 202607-04 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Aisha",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-104",
+        "work_order_id": "WO-2026-4404",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-104",
+        "work_order_id": "WO-2026-4504",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "aisha",
+        "inspection_date": "202607-04",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant2/area4",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-105": {
+    "equipment_id": "PMP-105",
+    "location": "plant3/area5",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician David Supervisor K"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician David Supervisor K"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician David Supervisor K. Lee Inspection 202607-05 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "David",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-105",
+        "work_order_id": "WO-2026-4405",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-105",
+        "work_order_id": "WO-2026-4505",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "david",
+        "inspection_date": "202607-05",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant3/area5",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-106": {
+    "equipment_id": "PMP-106",
+    "location": "plant1/area6",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Priya Supervisor M"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Priya Supervisor M"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Priya Supervisor M. Scott Inspection 202607-06 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Priya",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-106",
+        "work_order_id": "WO-2026-4406",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-106",
+        "work_order_id": "WO-2026-4506",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "priya",
+        "inspection_date": "202607-06",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant1/area6",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-107": {
+    "equipment_id": "PMP-107",
+    "location": "plant2/area7",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Arun Supervisor R"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Arun Supervisor R"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Arun Supervisor R. Sharma Inspection 202607-07 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Arun",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-107",
+        "work_order_id": "WO-2026-4407",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-107",
+        "work_order_id": "WO-2026-4507",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "arun",
+        "inspection_date": "202607-07",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant2/area7",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-108": {
+    "equipment_id": "PMP-108",
+    "location": "plant3/area8",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Lisa Supervisor K"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Lisa Supervisor K"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Lisa Supervisor K. Lee Inspection 202607-08 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Lisa",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-108",
+        "work_order_id": "WO-2026-4408",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-108",
+        "work_order_id": "WO-2026-4508",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "lisa",
+        "inspection_date": "202607-08",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant3/area8",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-109": {
+    "equipment_id": "PMP-109",
+    "location": "plant1/area9",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Neha Supervisor M"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Neha Supervisor M"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Neha Supervisor M. Scott NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 2 Inspection 202607-09 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Neha",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-109",
+        "work_order_id": "WO-2026-4409",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-109",
+        "work_order_id": "WO-2026-4509",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "neha",
+        "inspection_date": "202607-09",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant1/area9",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-110": {
+    "equipment_id": "PMP-110",
+    "location": "plant2/area10",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Carlos Supervisor R"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Carlos Supervisor R"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Carlos Supervisor R. Sharma Inspection 202607-10 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Carlos",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-110",
+        "work_order_id": "WO-2026-4410",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-110",
+        "work_order_id": "WO-2026-4510",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "carlos",
+        "inspection_date": "202607-10",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant2/area10",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-111": {
+    "equipment_id": "PMP-111",
+    "location": "plant3/area11",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Omar Supervisor K"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Omar Supervisor K"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Omar Supervisor K. Lee Inspection 202607-11 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Omar",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-111",
+        "work_order_id": "WO-2026-4411",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-111",
+        "work_order_id": "WO-2026-4511",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "omar",
+        "inspection_date": "202607-11",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant3/area11",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-112": {
+    "equipment_id": "PMP-112",
+    "location": "plant1/area12",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Sophia Supervisor M"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Sophia Supervisor M"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Sophia Supervisor M. Scott Inspection 202607-12 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Sophia",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-112",
+        "work_order_id": "WO-2026-4412",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-112",
+        "work_order_id": "WO-2026-4512",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "sophia",
+        "inspection_date": "202607-12",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant1/area12",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-113": {
+    "equipment_id": "PMP-113",
+    "location": "plant2/area13",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Vikram Supervisor R"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Vikram Supervisor R"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Vikram Supervisor R. Sharma Inspection 202607-13 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Vikram",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-113",
+        "work_order_id": "WO-2026-4413",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-113",
+        "work_order_id": "WO-2026-4513",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "vikram",
+        "inspection_date": "202607-13",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant2/area13",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-114": {
+    "equipment_id": "PMP-114",
+    "location": "plant3/area14",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Michael Supervisor K"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Michael Supervisor K"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Michael Supervisor K. Lee Inspection 202607-14 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run."
+    ],
+    "technician": "Michael",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-114",
+        "work_order_id": "WO-2026-4414",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-114",
+        "work_order_id": "WO-2026-4514",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "michael",
+        "inspection_date": "202607-14",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant3/area14",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "PMP-115": {
+    "equipment_id": "PMP-115",
+    "location": "plant1/area15",
+    "components": [
+      "Bearing",
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Sanjay Supervisor M"
+    ],
+    "failures": [
+      "Bearing Wear",
+      "Bearing Wear Action Replace bearing & lubricate Technician Sanjay Supervisor M"
+    ],
+    "actions": [
+      "Replace bearing & lubricate",
+      "Replace bearing & lubricate Technician Sanjay Supervisor M. Scott Inspection 202607-15 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run. NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 4 NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 5 NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 5"
+    ],
+    "technician": "Sanjay",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ],
+    "entities": [
+      {
+        "equipment_id": "PMP-115",
+        "work_order_id": "WO-2026-4415",
+        "component_name": "bearing",
+        "failure_type": "",
+        "technician": "",
+        "inspection_date": "",
+        "maintenance_action": "",
+        "regulatory_references": [],
+        "location": "",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Updated_CMMS_PM_Report_with_Telemetry.pdf"
+        ]
+      },
+      {
+        "equipment_id": "PMP-115",
+        "work_order_id": "WO-2026-4515",
+        "component_name": "bearing",
+        "failure_type": "bearing wear",
+        "technician": "sanjay",
+        "inspection_date": "202607-15",
+        "maintenance_action": "replace bearing & lubricate",
+        "regulatory_references": [],
+        "location": "plant1/area15",
+        "cause": "",
+        "recommendation": "",
+        "manufacturer": "",
+        "documents": [
+          "Realistic_CMMS_PM_Report.pdf"
+        ]
+      }
+    ]
+  },
+  "WO-2026-4501": {
+    "equipment_id": "WO-2026-4501",
+    "location": "Plant2/Area1",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician John Supervisor R",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician John Supervisor R",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician John Supervisor R. Sharma Inspection 202607-01 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "John",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4502": {
+    "equipment_id": "WO-2026-4502",
+    "location": "Plant3/Area2",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Emily Supervisor K",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Emily Supervisor K",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Emily Supervisor K. Lee Inspection 202607-02 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Emily",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4503": {
+    "equipment_id": "WO-2026-4503",
+    "location": "Plant1/Area3",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Raj Supervisor M",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Raj Supervisor M",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Raj Supervisor M. Scott Inspection 202607-03 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Raj",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4504": {
+    "equipment_id": "WO-2026-4504",
+    "location": "Plant2/Area4",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Aisha Supervisor R",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Aisha Supervisor R",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Aisha Supervisor R. Sharma Inspection 202607-04 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Aisha",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4505": {
+    "equipment_id": "WO-2026-4505",
+    "location": "Plant3/Area5 NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 1",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician David Supervisor K",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician David Supervisor K",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician David Supervisor K. Lee Inspection 202607-05 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "David",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4506": {
+    "equipment_id": "WO-2026-4506",
+    "location": "Plant1/Area6",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Priya Supervisor M",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Priya Supervisor M",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Priya Supervisor M. Scott Inspection 202607-06 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Priya",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4507": {
+    "equipment_id": "WO-2026-4507",
+    "location": "Plant2/Area7",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Arun Supervisor R",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Arun Supervisor R",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Arun Supervisor R. Sharma Inspection 202607-07 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Arun",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4508": {
+    "equipment_id": "WO-2026-4508",
+    "location": "Plant3/Area8",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Lisa Supervisor K",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Lisa Supervisor K",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Lisa Supervisor K. Lee Inspection 202607-08 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Lisa",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4509": {
+    "equipment_id": "WO-2026-4509",
+    "location": "Plant1/Area9",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Neha Supervisor M",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Neha Supervisor M",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Neha Supervisor M. Scott NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 2 Inspection 202607-09 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Neha",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4510": {
+    "equipment_id": "WO-2026-4510",
+    "location": "Plant2/Area10",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Carlos Supervisor R",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Carlos Supervisor R",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Carlos Supervisor R. Sharma Inspection 202607-10 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Carlos",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4511": {
+    "equipment_id": "WO-2026-4511",
+    "location": "Plant3/Area11",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Omar Supervisor K",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Omar Supervisor K",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Omar Supervisor K. Lee Inspection 202607-11 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Omar",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4512": {
+    "equipment_id": "WO-2026-4512",
+    "location": "Plant1/Area12",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Sophia Supervisor M",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Sophia Supervisor M",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Sophia Supervisor M. Scott Inspection 202607-12 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Sophia",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4513": {
+    "equipment_id": "WO-2026-4513",
+    "location": "Plant2/Area13",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Vikram Supervisor R",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Vikram Supervisor R",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Vikram Supervisor R. Sharma Inspection 202607-13 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Vikram",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4514": {
+    "equipment_id": "WO-2026-4514",
+    "location": "Plant3/Area14",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Michael Supervisor K",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Michael Supervisor K",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Michael Supervisor K. Lee Inspection 202607-14 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run.",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Michael",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  },
+  "WO-2026-4515": {
+    "equipment_id": "WO-2026-4515",
+    "location": "Plant1/Area15",
+    "components": [
+      "Bearing Priority Medium Failure Bearing Wear Action Replace bearing & lubricate Technician Sanjay Supervisor M",
+      "Bearing"
+    ],
+    "failures": [
+      "Bearing Wear Action Replace bearing & lubricate Technician Sanjay Supervisor M",
+      "Bearing Wear"
+    ],
+    "actions": [
+      "Replace bearing & lubricate Technician Sanjay Supervisor M. Scott Inspection 202607-15 Labor 2.5 hrs Parts 6205 Bearing, Grease Remarks Operational after test run. NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 4 NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 5 NORTHRIDGE INDUSTRIAL SERVICES LOGO CMMS Preventive Maintenance Report Page 5",
+      "Replace bearing & lubricate"
+    ],
+    "technician": "Sanjay",
+    "documents": [
+      "Realistic_CMMS_PM_Report.pdf"
+    ]
+  }
+}
