@@ -80,7 +80,7 @@ overrides==7.7.0
 packaging==23.2
 pandas==2.3.2
 pillow==11.3.0
-posthog==7.22.1
+
 propcache==0.5.2
 protobuf==7.35.1
 psutil==7.2.2
