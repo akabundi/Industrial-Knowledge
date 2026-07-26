@@ -25,14 +25,13 @@ import KnowledgeGraphView from './KnowledgeGraphView';
 // API Configurations
 const API_URL = import.meta.env.VITE_API_URL;
 
-function App() {
-  async function handleSubmit() {
-    const response = await fetch(`${API_URL}/predict`, {
-      method: "POST",
-      ...
-    });
-  }
-}
+const response = await fetch(`${API_URL}/predict`, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(data),
+});
 
 type Tab = 'dashboard' | 'graph' | 'ingestion' | 'qa' | 'entity' | 'rca' | 'compliance' | 'predictive' | 'lessons';
 
