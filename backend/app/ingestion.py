@@ -13,15 +13,25 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Configure Tesseract path
-if os.path.exists(settings.TESSERACT_CMD):
+
+import shutil
+
+
+if settings.TESSERACT_CMD and os.path.exists(settings.TESSERACT_CMD):
     pytesseract.pytesseract.tesseract_cmd = settings.TESSERACT_CMD
     logger.info(f"Tesseract OCR path set to {settings.TESSERACT_CMD}")
 else:
-    # Try default PATH search
-    logger.warning(
-        f"Tesseract not found at '{settings.TESSERACT_CMD}'. "
-        "Will attempt to use system PATH or fall back to native PDF text extraction."
-    )
+    # Try to find tesseract in the system PATH (Linux/Render)
+    tesseract = shutil.which("tesseract")
+
+    if tesseract:
+        pytesseract.pytesseract.tesseract_cmd = tesseract
+        logger.info(f"Using system Tesseract at {tesseract}")
+    else:
+        logger.warning(
+            "Tesseract executable not found. "
+            "OCR will be unavailable and native PDF text extraction will be used."
+        )
 
 def clean_text(text: str) -> str:
     """
