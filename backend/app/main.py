@@ -40,6 +40,9 @@ app = FastAPI(
 )
 
 # CORS setup for Frontend integration
+origins = [
+    "https://team-alpha-et-ai-hackathon-2-0-1tcw-2aenczts7.vercel.app/",
+]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # In production, specify frontend URLs
