@@ -23,7 +23,16 @@ import LessonsView from './LessonsView';
 import KnowledgeGraphView from './KnowledgeGraphView';
 
 // API Configurations
-const API_BASE = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL;
+
+function App() {
+  async function handleSubmit() {
+    const response = await fetch(`${API_URL}/predict`, {
+      method: "POST",
+      ...
+    });
+  }
+}
 
 type Tab = 'dashboard' | 'graph' | 'ingestion' | 'qa' | 'entity' | 'rca' | 'compliance' | 'predictive' | 'lessons';
 
